@@ -1,0 +1,10 @@
+[pull]
+    rebase = false
+[user]
+    name = Saravana Kumar
+    email = saravana.k.manimaran@gmail.com
+[filter]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
