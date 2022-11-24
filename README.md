@@ -1,6 +1,6 @@
 ### Some of my dotfiles
 zshrc
-```
+```zsh
 echo "Working on personal network!"
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
@@ -10,12 +10,13 @@ plugins=(
     zsh-syntax-highlighting
 )
 source $ZSH/oh-my-zsh.sh
+#refer aliases.zsh and work.zsh files
 [ -f .aliases.zsh ] && source .aliases.zsh
 [ -f .work.zsh ] && source .work.zsh
 ```
 
 vimrc
-```
+```vimrc
 syntax on
 set tabstop=4
 set shiftwidth=4
@@ -32,7 +33,7 @@ highlight Comment ctermfg=green
 ```
 
 nanorc
-```
+```nanorc
 set tabsize 4
 set tabstospaces
 set autoindent
@@ -48,7 +49,7 @@ include /opt/homebrew/share/nanorc/*.nanorc
 ```
 
 gitconfig
-```
+```gitconfig
 [pull]
     rebase = false
 [user]
